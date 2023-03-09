@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: lightblue;
+
+}
+/* .button{
+    width: 132px !important;
+} */
+.output:hover{
+background-color: rgb(222, 202, 176) !important;
+}
+.container button{
+    width: 66px;
+    padding: 22px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: xx-large;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #5e5e5e;
+
+}
+.opbutton{
+    color: hwb(89deg 9% 30%) !important; 
+}
+.cbutton{
+    color: hwb(13deg 44% 9%) !important; 
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    border: 2px solid black;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 23px;
+    background-color:grey;
+    box-shadow: 5px 5px 0 0 black;
+
+}
+.text-center{
+    text-align: center;
+    color: grey;
+}
+
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.button:hover{
+    background-color: aqua;
+
+}
+/* .button{
+    
+} */
+.text-center:hover{
+    text-decoration: underline;
+
+}
+.box{
+    height: 95%;
+    width: 30%;
+    background-color:black;
+    margin: auto;
+    /* padding-top: 25px; */
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    
+}
